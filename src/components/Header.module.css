@@ -1,6 +1,9 @@
 .header {
-    grid-area: h;
-    background-color: #52dbe0;
+    height: 50vh;
+}
+
+.sectionHeader {
+    background-color: #e05252;
     display: flex;
     gap: 20px;
     width: 100%;
@@ -52,4 +55,10 @@
 .profileSide {
     display: flex;
     gap: 20px;
+}
+
+.headerImg {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
 }

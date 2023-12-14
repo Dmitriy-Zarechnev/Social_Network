@@ -1,15 +1,10 @@
 .app-wrapper {
+    width: 100%;
+}
+
+.app-container {
     margin: 0 auto;
     width: 1470px;
     padding: 0 15px;
-
-    display: grid;
-    grid-template-areas:
-    "h h"
-    "n c";
-    grid-template-rows: 60px 1fr;
-    grid-template-columns: 50% 50%;
-    /*grid-gap: 10px;*/
 }
-
 
