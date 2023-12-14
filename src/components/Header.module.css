@@ -1,8 +1,55 @@
 .header {
     grid-area: h;
     background-color: #52dbe0;
+    display: flex;
+    gap: 20px;
+    width: 100%;
 }
 
-.header img {
+.logoImg {
     width: 100px;
+}
+
+.ul {
+    display: flex;
+    gap: 10px;
+}
+
+.navItem {
+    list-style: none;
+}
+
+
+.searchImg, .notifImg, .messageImg, .languageImg, .avaImg, .homeImg {
+    width: 30px;
+}
+
+.searchImg {
+    /*flex: 1 1 auto;*/
+}
+
+.homeImg {
+
+
+}
+
+.notifImg {
+
+}
+
+.messageImg {
+
+}
+
+.languageImg {
+
+}
+
+.avaImg {
+
+}
+
+.profileSide {
+    display: flex;
+    gap: 20px;
 }
